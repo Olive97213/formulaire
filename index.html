@@ -1,25 +1,60 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="styles.css"> 
-    <title>Document</title>
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width= , initial-scale=1.0">
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+        <script src="https://kit.fontawesome.com/746b654d34.js" crossorigin="anonymous"></script>
+    
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.3.0/font/bootstrap-icons.css%22%3E">
+        <link rel="stylesheet" href="styles.css">
+        <title><a href="#contact">contact</title>
+    </head>
 </head>
 <body>
+
+    <nav class="navbar navbar-expand-lg bg-primary navbar-dark py-3 fixed-top">
+        <div class="container">
+            <a href="" class="navbar-brand">Exercice de formulaire</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navmenu">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collaps navbar-collapse" id="navmenu">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item">
+                        <a href="#home" class="nav-link">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="http://127.0.0.1:5500/form/private.html" id="privatelink" class="nav-link" >Private</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#contact" class="nav-link">Contact</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
    
     <form>
         <label for = "first-name"> First name <input id="first-name" type="texte" required>  </label>
         <label for = "last-name"> Last name <input id="last-name" type="texte" required> </label>
         <label for = "email">Email <input id="email" type="email" required></label>
-        <label for ="age">Age <input id="age" type="number" required></label> 
+        <label for ="age">Age <input id="age" type="date" required></label> 
         <button class="button" type="submit">Envoyer</button>
     </form>
 
    
-  
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.min.js"
+integrity="sha384-mQ93GR66B00ZXjt0YO5KlohRA5SY2XofN4zfuZxLkoj1gXtW8ANNCe9d5Y3eG5eD"
+crossorigin="anonymous"></script>
 
-<script src="main.js"></script>
+<script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+<script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+<script src="main.js"></script> 
+
+
 </body>
 </html>
